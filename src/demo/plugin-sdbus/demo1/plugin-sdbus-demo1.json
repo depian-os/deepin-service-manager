@@ -1,0 +1,19 @@
+{
+    "name": "org.deepin.service.sdbus.demo1",
+    "group": "adt",
+    "libPath": "libplugin-sdbus-demo1.so",
+    "policyVersion": "1.0",
+    "policyStartType": "Resident",
+    "pluginType": "sd",
+    "policy": [
+        {
+            "path": "/org/deepin/service/sdbus/demo1",
+            "pathhide": false,
+            "subpath": true
+        },
+        {
+            "path": "/org/deepin/services/sdbus/test1",
+            "pathhide": true
+        }
+    ]
+}

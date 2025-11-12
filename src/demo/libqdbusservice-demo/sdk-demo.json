@@ -1,0 +1,15 @@
+{
+    "name": "org.deepin.service.sdk.demo",
+    "policyStartType": "OnDemand",
+    "idleTime": 1,
+    "policy": [
+        {
+            "path": "/org/deepin/service/sdk/demo",
+            "pathhide": false
+        },
+        {
+            "path": "/org/deepin/services/sdk/test1",
+            "pathhide": true
+        }
+    ]
+}
